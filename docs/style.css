@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+    color: #ebdbb2;
+    font-family: "Tinos", sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #98971a;
+    font-size: .60vw;
+}
+
+header div {
+    font-size: 1vw;
+}
+
+main {
+    max-width: 1080px;
+    margin: auto;
+}
