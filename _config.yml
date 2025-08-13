@@ -1,7 +1,7 @@
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
+      type: "posts"
     values:
-      layout: "default"
+      layout: "mylayout"
       author: "Guilherme Fernandes"
