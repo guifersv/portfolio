@@ -4,5 +4,5 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "mylayout"
       author: "Guilherme Fernandes"
