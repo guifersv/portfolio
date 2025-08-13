@@ -3,5 +3,5 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "mylayout"
+      layout: "default"
       author: "Guilherme Fernandes"
