@@ -2,7 +2,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
     values:
       layout: "mylayout"
       author: "Guilherme Fernandes"
