@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 
-a, a:visited, a:active {
+a, a:visited {
     text-decoration: none;
     color: var(--fg);
 }
