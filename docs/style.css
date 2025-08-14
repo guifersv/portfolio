@@ -8,17 +8,26 @@ body {
     background-color: #282828;
     color: #ebdbb2;
     font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
 }
 
-.header {
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-top: 1vh;
     color: #98971a;
-    font-size: .60vw;
+    width: 100vw;
+    height: 20vh;
+}
+
+#header-title {
+    font-size: .60rem;
 }
 
 #header-sub {
-    font-size: 1vw;
+    font-size: 1.2rem;
 }
 
 main {
