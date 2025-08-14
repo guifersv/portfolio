@@ -58,9 +58,14 @@ header {
     color: #a89984;
 }
 
-nav {
+#nav-bar {
+    text-align: center;
     padding: 4px;
-    color: var(--gray)
+    color: var(--gray);
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    font-size: 1.5em;
 }
 
 main {
