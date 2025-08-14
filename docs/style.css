@@ -8,7 +8,7 @@ body {
     background-color: #282828;
     color: #ebdbb2;
     font-family: "JetBrains Mono", monospace;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 header {
@@ -19,16 +19,17 @@ header {
     text-align: center;
     color: #98971a;
     width: 100vw;
-    height: 20vh;
+    padding: 4px;
 }
 
 #header-title {
-    font-size: .60rem;
+    font-size: .8em;
 }
 
 #header-sub {
-    font-size: 1.2rem;
+    font-size: 1.5em;
 }
+
 
 main {
     max-width: 1080px;
