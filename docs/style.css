@@ -7,16 +7,17 @@
 body {
     background-color: #282828;
     color: #ebdbb2;
-    font-family: "Tinos", sans-serif;
+    font-family: "JetBrains Mono", monospace;
 }
 
-header {
+.header {
     text-align: center;
+    margin-top: 1vh;
     color: #98971a;
     font-size: .60vw;
 }
 
-header div {
+#header-sub {
     font-size: 1vw;
 }
 
