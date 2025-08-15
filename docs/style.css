@@ -71,4 +71,11 @@ header {
 main {
     max-width: 1080px;
     margin: auto;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100vw;
+    padding: 4px;
+    text-align: center;
 }
