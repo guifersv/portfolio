@@ -30,7 +30,7 @@ body {
     background-color: var(--bg);
     color: var(--fg);
     font-family: "JetBrains Mono", monospace;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 header {
@@ -42,11 +42,11 @@ header {
     color: var(--blue);
     width: 100vw;
     padding: 4px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 #header-title {
-    font-size: .8rem;
+    font-size: .65rem;
     margin-top: 4px;
 }
 
@@ -65,7 +65,7 @@ header {
     z-index: 1000;
     position: sticky;
     top: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 main {
