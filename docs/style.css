@@ -16,15 +16,24 @@
     box-sizing: border-box;
 }
 
-a, a:visited {
+a {
     text-decoration: none;
-    color: var(--fg);
+    color: var(--purple);
+    
 }
 
 a:hover, a:active {
-    color: var(--yellow);
+    text-decoration: underline;
 }
 
+nav a {
+    color: var(--fg);
+
+    &:hover, &:active {
+        color: var(--yellow);
+        text-decoration: none;
+    }
+}
 
 body {
     background-color: var(--bg);
@@ -78,4 +87,8 @@ footer {
     width: 100vw;
     padding: 4px;
     text-align: center;
+}
+
+#footer-links {
+    margin-top: 4px;
 }
